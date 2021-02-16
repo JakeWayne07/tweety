@@ -1,0 +1,24 @@
+body{
+    /*cursor: none;*/
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+}
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all .3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+}
+.link-grow{
+    transform: scale(2);
+    background: red;
+}

@@ -1,0 +1,12 @@
+.sidebar{
+    min-width: 20px;
+}
+
+.link-grow{
+    transform: scale(2);
+    background: red;
+}
+
+.sidenav{
+    width: 300px;
+}
